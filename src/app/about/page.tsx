@@ -90,7 +90,7 @@ export default function AboutPage() {
             {/* Inspirational Quote */}
             <div className="mb-8 text-center">
               <p className="font-[Overpass] text-[#EBE4D5] italic leading-relaxed">
-                "Code is like humour. If you have to explain it, its bad"
+                &quot; Code is like humour. If you have to explain it, its bad. &quot;
               </p>
               <p className="font-[Overpass] text-[#EBE4D5]">
                 Favorite Setup: VS Code with Prettier.
