@@ -32,7 +32,11 @@ export default function RootLayout({
 
   return (
     <html lang="en">
-      <body className="bg-[#3E4150] text-[#EBE4D5] min-h-screen relative overflow-hidden">
+      <head>
+        <title>Karrar&apos;s Portfolio</title>
+      </head>
+
+      <body className="bg-[#3E4150] text-[#EBE4D5] min-h-screen relative">
         {/* Splash Screen */}
         {showSplash && (
           <div className="splash-screen">
