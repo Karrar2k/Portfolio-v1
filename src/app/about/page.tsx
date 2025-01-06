@@ -67,7 +67,7 @@ export default function AboutPage() {
                     extraClass: "scale-node",
                   },
                   { name: "Express", logo: "/express-icon.png" },
-                  { name: "Git", logo: "/git-icon.png" },
+                  { name: "Liquid", logo: "/liquid-icon.png" },
                   { name: "MongoDB", logo: "/mongo-icon.png" },
                 ].map((skill, index) => (
                   <div
