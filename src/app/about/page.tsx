@@ -7,7 +7,7 @@ export default function AboutPage() {
       <div className="flex justify-center items-center min-h-screen bg-[#3E4150]">
         <div className="bg-[#2C2E39] w-full max-w-4xl flex flex-col rounded shadow-md">
           {/* HEADER */}
-          <header className="bg-[#1D1E25] px-8 py-4 flex items-center justify-between h-24">
+          <header className="bg-[#1D1E25] px-8 py-4 flex items-center justify-between h-20">
             <Link
               href="/"
               className="font-[Orbitron] text-[#66A2B2] text-2xl hover:opacity-80 transition-opacity"
@@ -30,7 +30,7 @@ export default function AboutPage() {
           {/* MAIN CONTENT */}
           <main className="p-12">
             {/* Hero Section */}
-            <div className="mb-6 text-center">
+            <div className="mb-2 text-center">
               <h1 className="font-[Raleway] text-3xl md:text-4xl font-bold text-[#EBE4D5]">
                 About Me
               </h1>
@@ -41,10 +41,10 @@ export default function AboutPage() {
             </div>
 
             {/* Personal Introduction */}
-            <section className="mb-12">
+            <section className="mb-6">
               <p className="font-[Overpass] text-[#EBE4D5] leading-relaxed text-center">
-                I’m a full-stack developer specializing in the MERN stack. I
-                thrive on creating clean, functional, and modern web
+                I’m a full-stack software enginner specialising in the MERN stack. 
+                I thrive on creating clean, functional, and modern web
                 applications that deliver seamless user experiences. With a
                 focus on creativity and clarity, I’m passionate about crafting
                 solutions that simplify complex problems, all while keeping
@@ -72,13 +72,13 @@ export default function AboutPage() {
                 ].map((skill, index) => (
                   <div
                     key={index}
-                    className="bg-[#1D1E25] rounded-md p-4 flex flex-col items-center"
+                    className="bg-[#1D1E25] rounded-md p-2 flex flex-col items-center"
                   >
                     <img
                       src={skill.logo}
                       alt={`${skill.name} Logo`}
                       className={
-                        'w-16 h-16 mb-4 object-contain ${skill.extraClass || ""'
+                        'w-12 h-12 mb-4 object-contain ${skill.extraClass || ""'
                       }
                     />
                     <p className="font-[Poppins] text-[#EBE4D5] font-bold">
@@ -91,10 +91,10 @@ export default function AboutPage() {
 
             {/* Hobbies and Interests Section */}
             <section>
-              <h2 className="font-[Poppins] text-1xl md:text-2xl font-bold text-[#B36A62] mb-6 text-center">
+              <h2 className="font-[Poppins] text-1xl md:text-2xl font-bold text-[#B36A62] mb-2 text-center">
                 Hobbies & Interests
               </h2>
-              <p className="font-[Overpass] text-[#EBE4D5] text-center leading-relaxed mb-8">
+              <p className="font-[Overpass] text-[#EBE4D5] text-center leading-relaxed mb-4">
                 When I’m not busy building web applications or working on
                 freelance projects, you’ll find me exploring my hobbies and
                 passions. Gaming fuels my competitive side, while cooking and
@@ -127,7 +127,7 @@ export default function AboutPage() {
           </main>
 
           {/* FOOTER */}
-          <footer className="bg-[#1D1E25] px-8 py-4 flex flex-col md:flex-row md:items-center justify-between h-24">
+          <footer className="bg-[#1D1E25] px-8 py-4 flex flex-col md:flex-row md:items-center justify-between h-20">
             <div className="flex items-center gap-6 mb-4 md:mb-0">
               <a
                 href="https://github.com/Karrar2k"
@@ -158,9 +158,11 @@ export default function AboutPage() {
                 />
               </a>
             </div>
-            <p className="text-sm font-[Overpass] mb-0 md:mb-0 mt-auto">
-              &copy; Designed & Built by Yours Truly
-            </p>
+            <div className="flex-1 text-center mb-0 md:mb-0 mt-auto">
+              <p className="text-sm font-[Overpass]">
+                &copy; Designed & Built by Yours Truly
+              </p>
+            </div>
             <Link
               href="/"
               className="font-[Orbitron] text-[#66A2B2] text-xl hover:opacity-80 transition-opacity"

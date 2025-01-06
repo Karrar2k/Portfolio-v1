@@ -8,7 +8,7 @@ export default function HomePage() {
       <div className="flex justify-center items-center min-h-screen bg-[#3E4150]">
         <div className="bg-[#2C2E39] w-full max-w-4xl flex flex-col rounded shadow-md overflow-hidden">
           {/* HEADER */}
-          <header className="bg-[#1D1E25] px-8 py-4 flex items-center justify-between h-24">
+          <header className="bg-[#1D1E25] px-8 py-4 flex items-center justify-between h-20">
             {/* Logo */}
 
             <Link
@@ -36,7 +36,7 @@ export default function HomePage() {
           <main className="p-12">
             {/* HERO */}
 
-            <div className="flex grid-cols-1 md:grid-cols-2 mb-32">
+            <div className="flex-grow grid-cols-1 md:grid-cols-2 mb-32">
               {/* Left: Big heading */}
               <div>
                 <h1 className="hero-heading font-[Raleway] text-8xl !text-8x1 font-bold text-[#EBE4D5]">
@@ -98,7 +98,7 @@ export default function HomePage() {
             </div>
           </main>
           {/* FOOTER */}
-          <footer className="bg-[#1D1E25] px-8 py-4 flex flex-col md:flex-row md:items-center justify-between h-24">
+          <footer className="bg-[#1D1E25] px-8 py-4 flex flex-col md:flex-row md:items-center justify-between h-20">
             {/* GitHub&LinkedIn */}
 
             <div className="flex items-center gap-6 mb-4 md:mb-0">
@@ -134,9 +134,11 @@ export default function HomePage() {
 
             {/* Copyright */}
 
-            <p className="text-sm font-[Overpass] mb-0 md:mb-0 mt-auto">
-              &copy; 2024 Designed & Build by Yours Truly
-            </p>
+            <div className="flex-1 text-center mb-0 md:mb-0 mt-auto">
+              <p className="text-sm font-[Overpass]">
+                &copy; Designed & Built by Yours Truly
+              </p>
+            </div>
 
             {/* Logo */}
 

@@ -59,7 +59,7 @@ export default function WorksPage() {
       <div className="flex justify-center items-center min-h-screen bg-[#3E4150]">
         <div className="bg-[#2C2E39] w-full max-w-4xl flex flex-col rounded shadow-md overflow-hidden">
           {/* HEADER */}
-          <header className="bg-[#1D1E25] px-8 py-4 flex items-center justify-between h-24">
+          <header className="bg-[#1D1E25] px-8 py-4 flex items-center justify-between h-20">
             <Link
               href="/"
               className="font-[Orbitron] text-[#66A2B2] text-2xl hover:opacity-80 transition-opacity"
@@ -82,7 +82,7 @@ export default function WorksPage() {
           {/* MAIN CONTENT */}
           <main className="p-12">
             {/* Hero Section */}
-            <div className="mb-8 text-center">
+            <div className="flex-grow mb-8 text-center">
               <h1 className="font-[Raleway] text-4xl md:text-5xl font-bold text-[#EBE4D5]">
                 My Works
               </h1>
@@ -92,7 +92,7 @@ export default function WorksPage() {
             </div>
 
             {/* Scrollable Project Container */}
-            <div className="overflow-y-scroll max-h-[500px]">
+            <div className="overflow-y-scroll max-h-[548px]">
               {projects.map((project, index) => (
                 <div
                   key={index}
@@ -180,9 +180,11 @@ export default function WorksPage() {
                 />
               </a>
             </div>
-            <p className="text-sm font-[Overpass] mb-0 md:mb-0 mt-auto">
-              &copy; 2024 Designed & Build by Yours Truly
-            </p>
+            <div className="flex-1 text-center">
+              <p className="text-sm font-[Overpass]">
+                &copy; Designed & Built by Yours Truly
+              </p>
+            </div>
             <Link
               href="/"
               className="font-[Orbitron] text-[#66A2B2] text-xl hover:opacity-80 transition-opacity"
