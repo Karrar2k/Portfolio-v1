@@ -1,7 +1,7 @@
 "use client";
 
-import Header from "../components/Header";
-import Footer from "../components/Footer";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 import { AnimatePresence, motion } from "framer-motion";
 
 export default function House({ children }: { children: React.ReactNode }) {

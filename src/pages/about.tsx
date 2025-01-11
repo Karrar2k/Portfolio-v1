@@ -11,8 +11,8 @@ export default function AboutPage() {
           About Me
         </h1>
         <p className="font-[Poppins] text-lg md:text-xl text-[#B36A62] mt-4">
-          My Coding Motto: "Code is like humour. If you have to explain it, it’s
-          bad."
+          My Coding Motto: &quot;Code is like humour. If you have to explain it,
+          it’s bad.&quot;
         </p>
       </div>
 
