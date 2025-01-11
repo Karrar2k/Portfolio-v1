@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function HomePage() {
   return (
     <>
-      {/* "Hero" area */}
+      {/* Hero */}
       <div className="grid-cols-1 md:grid-cols-2 mb-32">
         <div>
           <h1 className="hero-heading font-[Raleway] text-8xl font-bold text-[#EBE4D5]">
@@ -25,7 +25,6 @@ export default function HomePage() {
 
       {/* Intro Section */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-2 items-start">
-        {/* Left: Intro text */}
         <div>
           <h2 className="font-[Poppins] text-2xl md:text-3xl font-semibold text-[#B36A62] mb-4">
             Let me introduce myself.

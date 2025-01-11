@@ -3,7 +3,6 @@
 import Image from "next/image";
 
 export default function WorksPage() {
-  // Example projects from your old code:
   const projects = [
     {
       type: "Shopify",
@@ -77,7 +76,7 @@ export default function WorksPage() {
         </p>
       </div>
 
-      {/* Scrollable container for projects */}
+      {/* container for projects */}
       <div className="overflow-y-scroll max-h-[648px]">
         {projects.map((project, index) => (
           <div
@@ -111,7 +110,6 @@ export default function WorksPage() {
                 {project.description}
               </p>
               <div className="mt-4 flex space-x-4">
-                {/* "View" button => link or live */}
                 <a
                   href={project.link || project.live}
                   target="_blank"
@@ -120,7 +118,6 @@ export default function WorksPage() {
                 >
                   View
                 </a>
-                {/* GitHub if it's a hobby project */}
                 {project.type === "Hobby" && project.github && (
                   <a
                     href={project.github}

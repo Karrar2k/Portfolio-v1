@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function AboutPage() {
   return (
     <>
-      {/* Hero Section */}
+      {/* Hero */}
       <div className="mb-2 text-center">
         <h1 className="font-[Raleway] text-3xl md:text-4xl font-bold text-[#EBE4D5]">
           About Me
@@ -16,7 +16,7 @@ export default function AboutPage() {
         </p>
       </div>
 
-      {/* Personal Introduction */}
+      {/* Intro */}
       <section className="mb-6">
         <p className="font-[Overpass] text-[#EBE4D5] leading-relaxed text-center">
           I’m a full-stack software engineer specialising in the MERN stack. I
@@ -29,7 +29,7 @@ export default function AboutPage() {
         </p>
       </section>
 
-      {/* Skills Section */}
+      {/* Skills */}
       <section className="mb-12">
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {[

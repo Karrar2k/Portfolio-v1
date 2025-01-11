@@ -11,12 +11,6 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 
   return (
     <div className="w-full flex justify-center">
-      {/* 
-        The "house" container:
-        - Enough height so background is visible top/bottom.
-        - display: flex + flex-col to push footer to the bottom.
-        - margin top/bottom for a gap around it.
-      */}
       <div
         className="
           mt-8 mb-8 
@@ -31,7 +25,6 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         {/* 1) Header at the top */}
         <Header />
 
-        {/* 2) Main content area that grows/shrinks and can scroll */}
         <div className="flex-grow overflow-y-auto p-8">
           <AnimatePresence mode="wait">
             <motion.div
@@ -46,7 +39,6 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           </AnimatePresence>
         </div>
 
-        {/* 3) Footer pinned to the bottom of the container */}
         <Footer />
       </div>
     </div>
