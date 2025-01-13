@@ -30,7 +30,7 @@ export default function ContactPage() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           ...formData,
-          apikey: "972dc504-80e9-4fff-8d08-b6b55056ce23",
+          apikey: process.env.NEXT_PUBLIC_WEB3FORMS_API_KEY,
         }),
       });
 
