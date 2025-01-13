@@ -1,4 +1,3 @@
-// src/pages/about.tsx
 
 import Image from "next/image";
 
@@ -17,7 +16,7 @@ export default function AboutPage() {
       </div>
 
       {/* Intro */}
-      <section className="mb-6">
+      <section className="mb-2">
         <p className="font-[Overpass] text-[#EBE4D5] leading-relaxed text-center">
           I’m a full-stack software engineer specialising in the MERN stack. I
           thrive on creating clean, functional, and modern web applications that
@@ -30,7 +29,7 @@ export default function AboutPage() {
       </section>
 
       {/* Skills */}
-      <section className="mb-12">
+      <section className="mb-6">
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {[
             { name: "HTML", logo: "/html-icon.png" },
@@ -63,7 +62,7 @@ export default function AboutPage() {
 
       {/* Hobbies and Interests */}
       <section>
-        <h2 className="font-[Poppins] text-1xl md:text-2xl font-bold text-[#B36A62] mb-2 text-center">
+        <h2 className="font-[Poppins] text-1xl md:text-2xl font-bold text-[#66A2B2] mb-2 text-center">
           Hobbies & Interests
         </h2>
         <p className="font-[Overpass] text-[#EBE4D5] text-center leading-relaxed mb-4">
