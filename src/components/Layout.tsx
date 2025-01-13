@@ -1,4 +1,3 @@
-// src/components/Layout.tsx
 
 import React from "react";
 import Header from "./Header";
@@ -22,10 +21,9 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           h-[calc(100vh-4rem)]
         "
       >
-        {/* 1) Header at the top */}
         <Header />
 
-        <div className="flex-grow overflow-y-auto p-8">
+        <div className="house flex-grow overflow-y-hidden p-6 mt-auto">
           <AnimatePresence mode="wait">
             <motion.div
               key={router.route}

@@ -1,4 +1,3 @@
-// src/pages/works.tsx
 
 import Image from "next/image";
 
@@ -77,22 +76,19 @@ export default function WorksPage() {
       </div>
 
       {/* container for projects */}
-      <div className="overflow-y-scroll max-h-[648px]">
+      <div className="scrollable-container overflow-y-scroll max-h-[calc(100vh-24rem)]">
         {projects.map((project, index) => (
           <div
             key={index}
             className="bg-[#1D1E25] rounded-md shadow-lg overflow-hidden mb-8 p-4 flex items-center gap-6"
           >
-            {/* Left: static/gif images */}
             <div className="relative w-1/2 h-72 bg-[#3E4150] flex items-center justify-center flex-shrink-0 overflow-hidden">
-              {/* Static image */}
               <Image
                 src={project.staticImage}
                 alt={`${project.title} Thumbnail`}
                 fill
                 className="object-cover hover:opacity-0 transition-opacity duration-300"
               />
-              {/* Animated GIF */}
               <Image
                 src={project.animatedGif}
                 alt={`${project.title} Animation`}
@@ -101,7 +97,6 @@ export default function WorksPage() {
               />
             </div>
 
-            {/* Right: Project details */}
             <div>
               <h2 className="font-[Poppins] text-xl font-bold text-[#66A2B2]">
                 {project.title}

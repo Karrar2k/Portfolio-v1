@@ -39,19 +39,19 @@ export default function Footer() {
       </div>
 
       {/* Copyright */}
-      <div className="flex-1 text-center mb-0 md:mb-0 mt-auto">
+      <div className="flex-1 text-center mb-0 md:mb-0 mt-auto mr-14">
         <p className="text-sm font-[Overpass]">
           &copy; Designed &amp; Built by Yours Truly
         </p>
       </div>
 
-      {/* Logo (right) */}
-      <Link
-        href="/"
+      <a
+        href="/Karrar-Almayali-CV.pdf"
+        download="Karrar-Almayali-CV.pdf"
         className="font-[Orbitron] text-[#66A2B2] text-xl hover:opacity-80 transition-opacity"
       >
-        KA.
-      </Link>
+        CV
+      </a>
     </footer>
   );
 }

@@ -1,4 +1,3 @@
-// src/pages/index.tsx
 
 import Image from "next/image";
 
@@ -6,15 +5,15 @@ export default function HomePage() {
   return (
     <>
       {/* Hero */}
-      <div className="grid-cols-1 md:grid-cols-2 mb-32">
+      <div className="grid-cols-1 md:grid-cols-2 mb-16 ml-16 mt-4">
         <div>
           <h1 className="hero-heading font-[Raleway] text-8xl font-bold text-[#EBE4D5]">
             I’m Karrar Almayali
           </h1>
         </div>
 
-        <div className="flex items-end justify-end">
-          <p className="hero-subtitle font-[Poppins] text-xl md:text-2xl lg:text-xl text-right leading-tight w-46 md:w-56">
+        <div className="flex items-end justify-end mr-16">
+          <p className="hero-subtitle font-[Poppins] text-xl md:text-2xl lg:text-x1 text-left leading-tight w-46 md:w-56">
             <span className="text-[#B36A62]">
               Software Engineer dedicated to solving problems with
             </span>{" "}
