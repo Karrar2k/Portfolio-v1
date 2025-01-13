@@ -4,6 +4,7 @@ import "../globals.css";
 import { useEffect, useState } from "react";
 import Layout from "../components/Layout";
 import { motion, AnimatePresence } from "framer-motion";
+import Head from "next/head";
 
 export default function MyApp({ Component, pageProps }: AppProps) {
   const [showSplash, setShowSplash] = useState(true);
@@ -17,6 +18,9 @@ export default function MyApp({ Component, pageProps }: AppProps) {
 
   return (
     <>
+    <Head>
+      <title>Karrar&apos;s Portfolio</title>
+    </Head>
       {/* Background */}
       <div className="pagebackground" />
 
