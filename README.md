@@ -1,5 +1,5 @@
 
-## My Portfolio Webiste. https://www.karraralmayali.com
+## Version 1 of my portfolio, not currently in use.
 
 
 
