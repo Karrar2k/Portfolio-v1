@@ -5,6 +5,24 @@ export default function WorksPage() {
   const projects = [
     {
       type: "Shopify",
+      title: "Medical Express Clinic [PAID WORK]",
+      staticImage: "/MECss.png",
+      animatedGif: "/MECgif.gif",
+      description:
+        "This project involved the full-stack rebuild of a medical clinic's website into a feature-rich web application using the PERN stack. The goal was to transform a basic online presence into a comprehensive platform that streamlined clinic operations and enhanced the patient experience. Key features included a custom appointment booking system, user accounts for patients, and multilingual support. I also integrated third-party APIs for payment processing and appointment confirmations.",
+      link: "https://www.medicalexpressclinic.co.uk/",
+    },
+    {
+      type: "Shopify",
+      title: "The Zahra Trust [PAID WORK]",
+      staticImage: "/ZTss.png",
+      animatedGif: "/ZTgif.gif",
+      description:
+        "This project focused on developing a multi-page donation site for a charity, addressing the need for online fundraising capabilities. The outdated website lacked a payment gateway, hindering donation collection. I designed and built a solution that integrated Stripe for processing single and recurring donations and Mailchimp for donor communication. This project allowed me to further refine my RESTful API integration skills.",
+      link: "https://zahratrust.com/",
+    },
+    {
+      type: "Shopify",
       title: "Shopify Website for Blood Test London [PAID WORK]",
       staticImage: "/BTLss.png",
       animatedGif: "/BTLgif.gif",
@@ -20,6 +38,15 @@ export default function WorksPage() {
       description:
         "Developed a visually appealing Shopify website for a wall panel retailer, showcasing their unique product range with high-quality images and engaging product descriptions. Improved online sales and enhanced brand visibility.",
       link: "https://designthewall.co.uk/",
+    },
+    {
+      type: "Shopify",
+      title: "The Zahra Trust Shop [VOLUNTEER WORK]",
+      staticImage: "/DTWss.png",
+      animatedGif: "/DTWgif.gif",
+      description:
+        "This was a volunteer project to create an online storefront for The Zahra Trust, selling apparel and merchandise to raise funds for the charity. Due to the client's preference for a separate site, I utilised the Shopify platform to quickly establish the store. The project demonstrated my ability to learn and implement a new platform and templating language efficiently. ",
+      link: "https://zahratrustshop.com/",
     },
     {
       type: "Hobby",
@@ -43,19 +70,9 @@ export default function WorksPage() {
     },
     {
       type: "Hobby",
-      title: "Hobby Project: Uni Project Frontend Update",
+      title: "University Final Year Project",
       staticImage: "/BFCv2ss.png",
       animatedGif: "/BFCv2gif.gif",
-      description:
-        "Re-designed and re-built the frontend for my final year project at university. Beckton F.C. v2 now has a much more modern and sleek look with subtle animations. The overhaul was long-overdue and frankly the original frontend was terrible.",
-      live: "https://beckton-fc-v2.vercel.app/",
-      github: "https://github.com/Karrar2k/Beckton-FC-FE-v2",
-    },
-    {
-      type: "Hobby",
-      title: "University Final Year Project",
-      staticImage: "/BFCss.png",
-      animatedGif: "/BFCgif.gif",
       description:
         "Developed a comprehensive e-commerce platform for 'Beckton F.C.', a hypothetical football club. Leveraging the MERN stack, the platform allows fans to browse and purchase official club merchandise online. Key features include a user-friendly interface, secure payments, order tracking, and user account management. This project demonstrates my proficiency in modern web development technologies and best practices, including RESTful APIs, database design and component-based architecture.",
       live: "https://beckton-fc-fe.vercel.app/",
